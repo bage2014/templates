@@ -15,6 +15,7 @@
   
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jstl.base.version>1.2</jstl.base.version>
 		<spring.base.version>4.3.9.RELEASE</spring.base.version>
 		<servlet.base.version>3.0-alpha-1</servlet.base.version>
 		<jsp.base.version>2.1</jsp.base.version>
@@ -24,8 +25,13 @@
 	</properties>
 	
 	
-  <dependencies> 
+  <dependencies>  
     
+    	<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${jstl.base.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
@@ -82,7 +88,7 @@
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-jdbc</artifactId>
 		    <version>${spring.base.version}</version>
-		</dependency>		
+		</dependency>
 		<dependency>
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-expression</artifactId>
@@ -102,7 +108,8 @@
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-instrument</artifactId>
 		    <version>${spring.base.version}</version>
-		</dependency>		
+		</dependency>
+		
   </dependencies>
   
   <build>
