@@ -19,5 +19,9 @@
   </properties>
   <modules>
     <module>templates-spring-xml</module>
+    <module>templates-admin-lte</module>
+    <module>templates-spring-cloud-client</module>
+    <module>templates-spring-cloud-register-center</module>
+    <module>templates-spring-boot</module>
   </modules>
 </project>

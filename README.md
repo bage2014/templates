@@ -13,3 +13,6 @@ Spring XML 配置方式模板项目
 ## templates-spring-cloud-register-center ##
 基于Eureka 的注册中心项目
 
+## templates-spring-boot ##
+Spring Boot 模板项目
+
