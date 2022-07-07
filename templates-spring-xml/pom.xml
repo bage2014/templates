@@ -16,7 +16,7 @@
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jstl.base.version>1.2</jstl.base.version>
-		<spring.base.version>4.3.9.RELEASE</spring.base.version>
+		<spring.base.version>5.2.21.RELEASE</spring.base.version>
 		<servlet.base.version>3.0-alpha-1</servlet.base.version>
 		<jsp.base.version>2.1</jsp.base.version>
 		<hsqldb.base.version>2.3.4</hsqldb.base.version>
